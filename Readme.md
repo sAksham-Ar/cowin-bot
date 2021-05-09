@@ -20,4 +20,4 @@ Run the script as follows after putting the chromedriver.exe in the same folder 
 python3 bot.py
 ```
 
-Then just go to the appointments page, selecvt the district after logging in and type anything into the bot and press enter.
+Then just go to the appointments page, select the district after logging in and type anything into the bot and press enter.
