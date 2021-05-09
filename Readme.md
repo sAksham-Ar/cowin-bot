@@ -4,7 +4,7 @@ A bot that will automatically click on avilable appointments in the next two wee
 
 ## Requirements
 
-This bot requires python and chrome. Download the chrome driver for your chrome from [here](https://discord.com/channels/687602943532204080/687602943532204168/840588892608528435).
+This bot requires python and chrome. Download the chrome driver for your chrome from [here](https://chromedriver.chromium.org/downloads).
 
 You also need selenium installed so it as follows: 
 
