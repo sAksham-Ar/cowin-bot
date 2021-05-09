@@ -9,8 +9,10 @@ input("done?")
 i=0
 while 1:
     links=driver.find_elements_by_tag_name("a")
-    appointments=[link for link in links if link.get_attribute("href")!=None and "appointment" in link.get_attribute("href")]
-    available=[appointment for appointment in appointments if appointment.text not in ["Booked","NA",""] and "May" not in appointment.text]
+    available=[]
+    for link in links:
+        if link.get_attribute("href")!=None and "appointment" in link.get_attribute("href") and link.text not in ["Booked","NA",""] and "May" not in link.text:
+            available.append(link)
     if len(available)>0:
         available[0].send_keys(Keys.ENTER)
         available[0].click()
